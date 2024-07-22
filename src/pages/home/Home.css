@@ -3,7 +3,7 @@
     .homeContainer{
         flex: 6;
         background-color: whitesmoke;
-        color: #616161;
+        color: #ff0000;
 
         .widgets{
             display: flex;
