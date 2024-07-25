@@ -1,12 +1,13 @@
 import React from 'react';
-import "./Sidebar.css";
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import WheelchairPickupOutlinedIcon from '@mui/icons-material/WheelchairPickupOutlined';
-import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
-import MedicalServicesOutlinedIcon from '@mui/icons-material/MedicalServicesOutlined';
-import AssessmentOutlinedIcon from '@mui/icons-material/AssessmentOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
+import WheelchairPickupIcon from '@mui/icons-material/WheelchairPickup';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import InventoryIcon from '@mui/icons-material/Inventory';
+import AssessmentIcon from '@mui/icons-material/Assessment';
+import SettingsIcon from '@mui/icons-material/Settings';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+
+import "./Sidebar.css";
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
@@ -28,37 +29,37 @@ const Sidebar = () => {
                     </Link>
                 </li>
                 <li>
-                    <WheelchairPickupOutlinedIcon className='icon'/>
+                    <WheelchairPickupIcon className='icon'/>
                     <Link to="/Patients" style={{textDecoration:"none"}}>
                     <span>Patients</span>
                     </Link>
                 </li>
                 <li>
-                    <LocalLibraryOutlinedIcon className='icon'/>
+                    <LocalLibraryIcon className='icon'/>
                     <Link to="/Students" style={{textDecoration:"none"}}>
                     <span>Students</span>
                     </Link>
                 </li>
                 <li>
-                    <MedicalServicesOutlinedIcon className='icon'/>
+                    <InventoryIcon className='icon'/>
                     <Link to="/Inventory" style={{textDecoration:"none"}}>
                     <span>Inventory</span>
                     </Link>
                 </li>
                 <li>
-                    <AssessmentOutlinedIcon className='icon'/>
+                    <AssessmentIcon className='icon'/>
                     <Link to="/Reports" style={{textDecoration:"none"}}>
                     <span>Reports</span>
                     </Link>
                 </li>
                 <li>
-                    <SettingsOutlinedIcon className='icon'/>
+                    <SettingsIcon className='icon'/>
                     <Link to="/Settings" style={{textDecoration:"none"}}>
                     <span>Settings</span>
                     </Link>
                 </li>
                 <li>
-                    <ExitToAppOutlinedIcon className='icon'/>
+                    <ExitToAppIcon className='icon'/>
                     <Link to="/Logout" style={{textDecoration:"none"}}>
                     <span>Logout</span>
                     </Link>
