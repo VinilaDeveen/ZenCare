@@ -1,8 +1,9 @@
+//---InventoryItemService
+
 package com.Accupuncture.Accupuncture.service;
 
 import com.Accupuncture.Accupuncture.entity.InventoryItem;
-import com.Accupuncture.Accupuncture.entity.Patient;
-import com.Accupuncture.Accupuncture.repository.InvetoryItemRepostory;
+import com.Accupuncture.Accupuncture.repository.InventoryItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import java.util.List;
 @Service
 public class InventoryItemService {
     @Autowired
-    private InvetoryItemRepostory inventoryItemRepostory;
+    private InventoryItemRepository inventoryItemRepostory;
 
     public InventoryItem saveItems(InventoryItem inventoryItem){
 

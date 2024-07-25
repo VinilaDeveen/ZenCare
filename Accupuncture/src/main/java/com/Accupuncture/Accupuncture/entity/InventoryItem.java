@@ -1,3 +1,5 @@
+//---InventoryItemEntity
+
 package com.Accupuncture.Accupuncture.entity;
 
 import jakarta.persistence.Column;

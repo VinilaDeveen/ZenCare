@@ -1,6 +1,6 @@
 //---PatientController
 
-package controller;
+package com.Accupuncture.Accupuncture.controller;
 
 import com.Accupuncture.Accupuncture.entity.Patient;
 import com.Accupuncture.Accupuncture.service.PatientService;

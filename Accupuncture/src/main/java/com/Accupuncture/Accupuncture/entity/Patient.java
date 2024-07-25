@@ -1,7 +1,5 @@
 package com.Accupuncture.Accupuncture.entity;
 
-//---Entity
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -22,7 +20,6 @@ public class Patient {
     @Column(name="PATIENTID")
     private int patientID;
 
-
     @Column(name="NAME")
     private String name;
 
@@ -40,4 +37,7 @@ public class Patient {
 
     @Column(name="PHONENO")
     private String phoneNo;
+
+    @Column(name="TOTAL_AMOUNT")
+    private double totalAmount;
 }

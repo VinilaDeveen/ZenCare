@@ -1,4 +1,6 @@
-package controller;
+//---StudentController
+
+package com.Accupuncture.Accupuncture.controller;
 
 import com.Accupuncture.Accupuncture.entity.InventoryItem;
 import com.Accupuncture.Accupuncture.service.InventoryItemService;

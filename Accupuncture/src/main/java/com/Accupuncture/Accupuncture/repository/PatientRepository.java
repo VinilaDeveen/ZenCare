@@ -1,4 +1,4 @@
-//Repository-----------------------------------
+//---PatientRepository
 
 package com.Accupuncture.Accupuncture.repository;
 

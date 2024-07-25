@@ -1,5 +1,3 @@
-//---StudentEntity
-
 package com.Accupuncture.Accupuncture.entity;
 
 import jakarta.persistence.Column;
@@ -12,17 +10,18 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "STUDENT")
+@Table(name = "BILL_DETAIL")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Student {
+public class BillDetail {
+
     @Id
-    @Column(name = "STUDENTID")
-    private int studentID;
+    @Column(name = "BILL_ID")
+    private int billID;
 
-    @Column(name = "STUDENTNAME")
-    private String studentName;
+    @Column(name = "PATIENT_ID")
+    private int patientID;
 
-    @Column(name = "CONTACTNO")
-    private String contactNo;
+    @Column(name = "TOTAL_AMOUNT")
+    private double totalAmount;
 }
