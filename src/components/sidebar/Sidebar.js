@@ -21,7 +21,6 @@ const Sidebar = () => {
         <hr/>
         <div className='bottom'>
             <ul>
-                <p className='title'></p>
                 <li>
                     <DashboardIcon className='icon'/>
                     <Link to="/Dashboard" style={{textDecoration:"none"}}>
