@@ -1,4 +1,4 @@
-package com.Accupuncture.Accupuncture.controller;
+package controller;
 
 import com.Accupuncture.Accupuncture.entity.Student;
 import com.Accupuncture.Accupuncture.service.StudentService;
